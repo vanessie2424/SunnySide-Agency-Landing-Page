@@ -604,6 +604,12 @@ nav{
 
 }
 
+@media screen and (max-width:378px){
+    body{
+        overflow-x: hidden;
+    }
+}
+
 
 
 
