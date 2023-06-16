@@ -608,6 +608,27 @@ nav{
     body{
         overflow-x: hidden;
     }
+    .header h1{
+        font-size: 35px;
+    }
+    .graphic_design{
+        background-image: url(./images/mobile/image-graphic-design.jpg);
+        width: auto;
+        background-size: cover;
+        padding: 20px 0px;
+    }
+    .graphic_design p{
+        padding: 50px 10px;
+    }
+    .photography{
+        background-image: url(./images/mobile/image-photography.jpg);
+        width: auto;
+        background-size: cover;
+        padding: 20px 0px;
+    }
+    .photography p{
+        padding: 50px 10px;
+    }
 }
 
 
