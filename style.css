@@ -7,6 +7,7 @@
 }
 body{
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 :root{
@@ -68,6 +69,12 @@ nav{
     color: var(--Darkblue);
     font-size: 14px;
     text-transform: uppercase;
+}
+.nav-links li:last-child:hover{
+    background: var(--Grayishblue);
+}
+.nav-links li:last-child a:hover{
+    color: var(--White);
 }
 .burger{
     display: none;
@@ -262,7 +269,7 @@ nav{
     font-family: 'Fraunces', serif;
     text-transform: uppercase;
     color: var(--Verydarkgrayishblue);
-    font-size: 23px;
+    font-size: 21px;
     font-weight: 900;
     letter-spacing: 6px;
 }
@@ -285,7 +292,7 @@ nav{
     padding: 30px 10px;
     line-height: 25px;
     color: var(--Verydarkgrayishblue);
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
     
@@ -293,7 +300,7 @@ nav{
 .client_emily h4{
     color: var(--Verydarkdesaturatedblue);
     font-family: 'Fraunces', serif;
-    margin-top: 22px;
+    margin-top: 20px;
     font-size: 23px;
     font-weight: 700;
 
@@ -301,8 +308,9 @@ nav{
 .client_emily h6{
     margin-top: 10px;
     color: var(--Grayishblue);
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'Barlow', sans-serif;
+    margin-bottom: 15px;
 }
 .clients .client_thomas{
     text-align: center;
@@ -314,17 +322,17 @@ nav{
     border-radius: 50%;   
 }
 .client_thomas p{
-    padding: 30px 10px;
+    padding: 30px 8px;
     line-height: 25px;
     color: var(--Verydarkgrayishblue);
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
 }
 .client_thomas h4{
     color: var(--Verydarkdesaturatedblue);
     font-family: 'Fraunces', serif;
-    margin-top: 22px;
+    margin-top: 20px;
     font-size: 23px;
     font-weight: 700;
 
@@ -332,8 +340,9 @@ nav{
 .client_thomas h6{
     margin-top: 10px;
     color: var(--Grayishblue);
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'Barlow', sans-serif;
+    margin-bottom: 15px;
 }
 .clients .client_jennie{
     text-align: center;
@@ -345,10 +354,10 @@ nav{
     border-radius: 50%;   
 }
 .client_jennie p{
-    padding: 30px 10px;
+    padding: 30px 8px;
     line-height: 25px;
     color: var(--Verydarkgrayishblue);
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
 }
@@ -356,15 +365,16 @@ nav{
     color: var(--Verydarkdesaturatedblue);
     font-family: 'Fraunces', serif;
     margin-top: 22px;
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 700;
 
 }
 .client_jennie h6{
     margin-top: 10px;
     color: var(--Grayishblue);
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'Barlow', sans-serif;
+    margin-bottom: 15px;
 }
 
 .four_pictures{
