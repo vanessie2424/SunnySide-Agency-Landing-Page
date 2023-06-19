@@ -292,7 +292,7 @@ nav{
     padding: 30px 10px;
     line-height: 25px;
     color: var(--Verydarkgrayishblue);
-    font-size: 14px;
+    font-size: 11px;
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
     
@@ -300,7 +300,7 @@ nav{
 .client_emily h4{
     color: var(--Verydarkdesaturatedblue);
     font-family: 'Fraunces', serif;
-    margin-top: 20px;
+    margin-top: 16px;
     font-size: 23px;
     font-weight: 700;
 
@@ -325,14 +325,14 @@ nav{
     padding: 30px 8px;
     line-height: 25px;
     color: var(--Verydarkgrayishblue);
-    font-size: 14px;
+    font-size: 11px;
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
 }
 .client_thomas h4{
     color: var(--Verydarkdesaturatedblue);
     font-family: 'Fraunces', serif;
-    margin-top: 20px;
+    margin-top: 16px;
     font-size: 23px;
     font-weight: 700;
 
@@ -357,7 +357,7 @@ nav{
     padding: 30px 8px;
     line-height: 25px;
     color: var(--Verydarkgrayishblue);
-    font-size: 14px;
+    font-size: 11px;
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
 }
@@ -365,7 +365,7 @@ nav{
     color: var(--Verydarkdesaturatedblue);
     font-family: 'Fraunces', serif;
     margin-top: 22px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
 
 }
